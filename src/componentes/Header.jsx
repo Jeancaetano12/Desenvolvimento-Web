@@ -30,7 +30,7 @@ const Header = () => {
           <button type="button"
             key={i}
             onClick={() => navigate(item.path)}
-            className={`botoesNav ${location.pathname === item.path ? 'active' : ''}`} // Logica para o botao ficar selecionado
+            className={`botoesNav ${location.pathname === item.path ? 'active' : ''}`} 
           >
             {item.name}
           </button>

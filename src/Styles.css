@@ -40,3 +40,26 @@
   border-radius: 10px;
 
 }
+
+.texto-com-borda {
+  /* Efeito de borda no texto */
+  text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000; /* Cria o efeito de borda preta */
+  
+  /* Transição suave para o hover */
+  transition: color 0.3s ease;
+}
+
+.texto-com-borda:hover {
+  color: #fff; /* Cor do texto no hover - altere para a cor desejada */
+  /* A borda permanece a mesma, apenas o texto muda de cor */
+}
+
+.texto-com-borda {
+  font-weight: bold;
+  /* Transição suave para o hover */
+  transition: color 0.3s ease;
+}
