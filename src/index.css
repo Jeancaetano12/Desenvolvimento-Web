@@ -1,2 +1,26 @@
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
+
+
+/* Estilo inicial - fora do hover */
+h1.texto-com-borda {
+  text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+h1.texto-com-borda span {
+  color: #fa70a0; /* Cor rosa do span */
+  text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+/* Efeito quando o mouse passa por cima */
+h1.texto-com-borda:hover {
+  color: #fa70a0; /* Assume a cor rosa do span */
+}
