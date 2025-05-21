@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import 'flowbite/dist/flowbite.min.css';
+
 #root {
   margin: 0 auto;
 
@@ -30,8 +31,12 @@
   border-color: #FFB6C1; /* Borda rosa claro no hover */
 }
 
-.Testee {
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 10px;
+.rodape {
+  background-color: #dfdfdf;
+}
+
+.gridInfos {
+  background-color: #dfdfdf;
+  border-radius: 10px;
+
 }

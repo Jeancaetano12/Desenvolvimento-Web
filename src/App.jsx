@@ -7,6 +7,7 @@ import ComoJogar from './pages/ComoJogar';
 import Regras from './pages/Regras';
 import Download from './pages/Download';
 import Comunidade from './pages/Comunidade';
+import "./Styles.css"
 
 function App() {
   return (
