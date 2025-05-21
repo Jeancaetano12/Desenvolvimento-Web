@@ -10,3 +10,28 @@
   z-index: 100 !important;
   background-color: transparent !important;
 }
+
+.botoesNav {
+  background-color: #fa70a0; /* Rosa claro */
+  color: #ffffff; /* Rosa escuro */
+  border: 1px solid white; /* Borda branca */
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.botoesNav:hover,
+.botoesNav.active {
+  background-color: #ffffff;/* Rosa mais forte no hover */
+  color: #fa70a0; /* Texto branco no hover */
+  border-color: #FFB6C1; /* Borda rosa claro no hover */
+}
+
+.Testee {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+}
