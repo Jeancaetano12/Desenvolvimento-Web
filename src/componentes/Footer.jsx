@@ -1,11 +1,12 @@
 import "../Styles.css"
 
 const Footer = () => (
-<footer class="rodape p-4 sm:p-6 ">
-    <div class="mx-auto max-w-screen-xl">
+<footer class="rodape pb-4">
+    <div className="relative top-full left-0 w-full h-8 bg-gradient-to-t from-transparent to-[#b3889e] pointer-events-none z-10"></div>
+    <div class="mx-auto max-w-screen-x1 p-6 ">
         <div class="md:flex md:justify-between">
-            <div class="mb-6 md:mb-0">
-                    <img src="OharaDiscordLogo.jpg" class="mr-3 h-24 rounded-xl outline-2 md:outline-purple-600" alt="FlowBite Logo" />
+            <div class="ml-16 mt-2 mb-6 md:mb-0">
+                    <img src="OharaDiscordLogo.jpg" class="h-42 rounded-xl outline-2 md:outline-purple-600" alt="Ohara Logo" />
             </div>
             <div class="gridInfos grid grid-cols-2 gap-16 sm:gap-16 sm:grid-cols-3 outline-2 outline-offset-2 outline-white">
                 <div>

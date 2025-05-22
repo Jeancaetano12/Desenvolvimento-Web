@@ -4,7 +4,7 @@ import "../index.css";
 export default function Inicio() {
   return (
     
-    <div className="relative min-h-screen mb-4">
+    <div className="relative min-h-screen">
       {/* Div do background com imagem + desfoque */}
       <div className="relative bottom-full left-0 w-full h-4 bg-gradient-to-t from-transparent to-[#b3889e] pointer-events-none z-10"></div>
       <div 
@@ -15,7 +15,7 @@ export default function Inicio() {
       </div>
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 relative z-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pb-16 pt-4 relative z-10">
        
         <div className=" p-0  flex flex-col items-center justify-center text-center">
           <h2 className="text-lg font-bold mb-4">IMAGEM DE ATUALIZAÇÕES</h2>
@@ -42,6 +42,7 @@ export default function Inicio() {
                 </div>
         </div>
       </div>
+      <div className="relative top-full left-0 w-full h-4 bg-gradient-to-b from-transparent to-[#b3889e] pointer-events-none z-10"></div>
     </div>
   );
 }
