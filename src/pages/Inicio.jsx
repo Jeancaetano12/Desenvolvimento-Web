@@ -3,9 +3,10 @@ import "../index.css";
 
 export default function Inicio() {
   return (
-   
-    <div className="relative min-h-screen">
+    
+    <div className="relative min-h-screen mb-4">
       {/* Div do background com imagem + desfoque */}
+      <div className="relative bottom-full left-0 w-full h-4 bg-gradient-to-t from-transparent to-[#b3889e] pointer-events-none z-10"></div>
       <div 
         className="fixed inset-0 -z-10 bg-[url('/mewtwo.png')] bg-cover bg-center"
       >
@@ -14,9 +15,9 @@ export default function Inicio() {
       </div>
 
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 relative z-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 relative z-10">
        
-        <div className=" p-4  flex flex-col items-center justify-center text-center">
+        <div className=" p-0  flex flex-col items-center justify-center text-center">
           <h2 className="text-lg font-bold mb-4">IMAGEM DE ATUALIZAÇÕES</h2>
           <img class="h-auto max-w-xl rounded-lg shadow-2xl dark:shadow-gray-800" src="mewtwo.png" alt="image description"></img>
           <blockquote class="mt-8 text-xl italic font-semibold text-gray-900 dark:text-white">
@@ -27,7 +28,7 @@ export default function Inicio() {
         
 
       
-        <div className=" p-4 flex flex-col items-center justify-center text-center">
+        <div className=" p-0 flex flex-col items-center justify-center text-center">
             <h1 class="mb-4 text-3sxl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white texto-com-borda texto-com-borda">Melhor Site de Host <br />
                 <span class="text-[#fa70a0] texto-com-borda">ENXADA #1</span></h1>
               <div class="max-w-xl bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">

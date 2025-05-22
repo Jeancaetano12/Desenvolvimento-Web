@@ -19,11 +19,11 @@ const Header = () => {
 
   return (
     <header 
-      className="relative h-64 bg-cover bg-center border-b border-gray-200 dark:border-gray-700" 
+      className="relative h-64 bg-cover bg-center" 
       style={{ backgroundImage: `url(${oharaBanner})` }}
     >
       {/* Gradiente de transição para o body */}
-      <div className="absolute bottom-0 left-0 w-full h-16 bg-gradient-to-b from-transparent to-[#b3889e] pointer-events-none z-10"/>
+      <div className="absolute bottom-0 left-0 w-full h-8 bg-gradient-to-b from-transparent to-[#b3889e] pointer-events-none z-10"/>
       {/* Navegacao sobreposta */}
       <nav className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
         {navItems.map((item, i) => (
