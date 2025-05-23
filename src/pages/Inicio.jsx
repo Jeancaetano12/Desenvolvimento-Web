@@ -42,7 +42,7 @@ export default function Inicio() {
                 </div>
         </div>
       </div>
-      <div className="relative top-full left-0 w-full h-4 bg-gradient-to-b from-transparent to-[#b3889e] pointer-events-none z-10"></div>
+      {/*Linha de Transição transparente*/}
     </div>
   );
 }
