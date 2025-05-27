@@ -120,8 +120,54 @@ export default function Galeria() {
         </Swiper>
 
       </div>
+          
+
+
+
+      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-8">
+
+    
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria1.png" alt=""/>
+        </div>
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria2.png" alt=""/>
+        </div>
+        
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria3.png" alt=""/>
+        </div>
+
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria4.png" alt=""/>
+        </div>
+
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria5.png" alt=""/>
+        </div>
+
+        <div>
+         <img class="h-auto max-w-full rounded-lg" src="Galeria6.png" alt=""/>
+        </div>
+
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria7.png" alt=""/>
+        </div>
+
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria8.png" alt=""/>
+        </div>
+
+        <div>
+          <img class="h-auto max-w-full rounded-lg" src="Galeria9.png" alt=""/>
+        </div>
+      </div>
     </div>
+    
   );
+
+  
+
 }
 
 {/*
