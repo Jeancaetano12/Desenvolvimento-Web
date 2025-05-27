@@ -12,11 +12,11 @@ export default function Sobre() {
       </div>
 
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 pl-8 relative z-10">
 
          {/* Coluna da Esquerda */}
-        <div className=" p-0 flex flex-col items-center justify-center text-center">
-           <img class="h-auto max-w-3xl rounded-lg shadow-2xl dark:shadow-gray-800 mb-8" src="ohara-sobre.png" alt="image description"></img>
+        <div className="p-0 flex flex-col items-center justify-center text-center">
+          <img class="h-112 max-w-3xl rounded-lg shadow-2xl dark:shadow-gray-800 mb-8" src="ohara-sobre.png" alt="image description"></img>
 
         <figure class="max-w-screen-md mx-auto text-center">
             <svg class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
@@ -24,7 +24,7 @@ export default function Sobre() {
             </svg>
 
           <blockquote>
-                  <p class="text-4xl italic font-medium text-gray-900 dark:text-white">"Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application."</p>
+                  <p class="text-4xl italic font-medium text-gray-900 dark:text-white">"No nosso servidor, você vai encontrar cidades, ginásios, e quests para interagir nesse gigantesco mundo que construimos bloco a bloco, dedicamos muitos esforços para trazer a essência dos jogos para o mundo quadrado, baseado no jogo Fire-RED da franquia pokémon, adaptamos seus visuais para algo mais quadrado e com um toque a mais de personalidade, envolto de uma história própria e acontecimentos distintos, esperamos trazer uma experiência de aventuras e batalhas nesse novo mundo!"</p>
           </blockquote>
 
              <figcaption class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
@@ -42,7 +42,7 @@ export default function Sobre() {
         </div>
 
       {/* Coluna da Direita */}
-  <div className=" p-0 flex flex-col items-center justify-center text-center">
+    <div className="p-0 flex flex-col items-center justify-center text-center">
       <section class=" ">
             <div class="py-2 px-2 mx-auto max-w-screen-sm lg:py-16 lg:px-6 ">
               <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">

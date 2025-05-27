@@ -8,6 +8,7 @@ import Regras from './pages/Regras';
 import Download from './pages/Download';
 import Comunidade from './pages/Comunidade';
 import "./Styles.css"
+import 'flowbite';
 
 function App() {
   return (
