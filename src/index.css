@@ -24,3 +24,25 @@ h1.texto-com-borda span {
 h1.texto-com-borda:hover {
   color: #fa70a0; /* Assume a cor rosa do span */
 }
+
+h2.texto-com-borda {
+  text-shadow: 
+    -1px -1px 0 #000000,  
+     1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+     1px 1px 0 #000000;
+}
+
+h2.texto-com-borda span {
+  color: #fa70a0; /* Cor rosa do span */
+  text-shadow: 
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+}
+
+/* Efeito quando o mouse passa por cima */
+h2.texto-com-borda:hover {
+  color: #fa70a0; /* Assume a cor rosa do span */
+}
