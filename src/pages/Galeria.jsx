@@ -77,7 +77,7 @@ export default function Galeria() {
           slidesPerView={1}
           navigation
           pagination={{ clickable: true }}
-          autoplay={{ delay: 4000 }}
+          autoplay={{ delay: 8000 }}
           loop={true}
           className="rounded-lg overflow-hidden"
         >
