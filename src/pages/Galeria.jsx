@@ -23,7 +23,7 @@ export default function Galeria() {
       <section className="">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
           <h1 className="mb-4 text-4xl font-mono leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white texto-com-borda texto-com-borda">Um mundo realmente vivo</h1>
-          <p className="mb-8 text-lg font-mono text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-white">Repleto de vilarejos e quests a serem descobertas!</p>
+          <p className="mb-8 text-lg font-mono text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-white text-shadow-lg/55">Repleto de vilarejos e quests a serem descobertas!</p>
         </div>
       </section>
 
@@ -68,7 +68,7 @@ export default function Galeria() {
         <section className=" ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
           <h1 className="mb-4 text-4xl font-mono leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white texto-com-borda texto-com-borda">Um lugar repleto de desafios</h1>
-          <p className="mb-8 text-lg font-mono text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-white">Seguindo a progressão do pokémon fire-red, para avançar você terá que enfrentar vários ginásios!</p>
+          <p className="mb-8 text-lg font-mono text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-white text-shadow-lg/55">Seguindo a progressão do pokémon fire-red, para avançar você terá que enfrentar vários ginásios!</p>
         </div>
       </section>
         <Swiper
@@ -121,14 +121,17 @@ export default function Galeria() {
 
       </div>
           
-
-
+        <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+          <h1 className=" mb-4 text-4xl font-mono leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white texto-com-borda texto-com-borda ">Agora é com você!!</h1>
+          <p className="mb-8 text-lg font-mono text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-white text-shadow-lg/55">Mergulhe em um mundo onde blocos infinitos se encontram com criaturas lendárias! Descubra, capture e batalhe com Pokémon em uma jornada épica pelo universo de Cobblemon!</p>
+        </div>
+    
 
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-8">
 
-    
+        
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria1.png" alt=""/>
+          <img class=" h-auto max-w-full rounded-lg" src="Galeria1.png" alt=""/>
         </div>
         <div>
           <img class="h-auto max-w-full rounded-lg" src="Galeria2.png" alt=""/>

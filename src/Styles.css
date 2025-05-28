@@ -31,15 +31,7 @@
   border-color: #FFB6C1; /* Borda rosa claro no hover */
 }
 
-.rodape {
-  background-color: #dfdfdf;
-}
 
-.gridInfos {
-  background-color: #dfdfdf;
-  border-radius: 10px;
-
-}
 
 .texto-com-borda {
   /* Efeito de borda no texto */
