@@ -39,7 +39,7 @@ const Header = () => {
 
       <nav
         ref={navRef}
-        className="sticky top-0 z-50 flex justify-center gap-2 py-3 relative"
+        className="sticky top-0 z-50 flex justify-center gap-2 py-3"
       >
         {/* Indicador deslizante */}
         <span
