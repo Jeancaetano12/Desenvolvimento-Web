@@ -43,7 +43,7 @@ const Header = () => {
       >
         {/* Indicador deslizante */}
         <span
-          className="absolute bottom-0 h-1 bg-white rounded shadow-md transition-all duration-300"
+          className="absolute top-0 h-1 bg-white rounded shadow-md transition-all duration-300"
           style={{ left: indicatorStyle.left, width: indicatorStyle.width }}
         ></span>
 
