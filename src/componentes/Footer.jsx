@@ -1,30 +1,24 @@
-import "../Styles.css"
+import "../Styles.css";
 
 const Footer = () => (
   <footer
     className="bg-cover bg-center bg-no-repeat"
     style={{ backgroundImage: "url('/Footer-BG.png')" }}
   >
-    <div className="relative top-full left-0 w-full h-8 bg-gradient-to-t from-transparent to-[#c48faa] pointer-events-none z-10"></div>
-    <div className="mx-auto max-w-screen-x1 p-2">
-      <div className="md:flex md:justify-between">
-        <div className="ml-200 mt-5 mb-6 md:mb-0">
-          <img
-            src="OharaDiscordLogo.jpg"
-            className="h-42 rounded-xl outline-1 md:outline-purple-500 shadow-2xl"
-            alt="Ohara Logo"
-          />
-        </div>
-        <div className="bg-pink-400/30 rounded-2xl grid grid-cols-2 gap-16 sm:gap-16 sm:grid-cols-3 border-4 border-double mb-2">
+    <div className="relative left-0 w-full h-8 bg-gradient-to-t from-transparent to-[#c48faa] pointer-events-none z-10"></div>
+    <div className="mx-auto max-w-screen-xl p-4">
+      <div className="md:flex md:justify-between flex-col md:flex-row">
+        <div className=" box bg-white/70 rounded-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 border-4 border-double p-4 w-full">
+          {/* Coluna 1 */}
           <div>
-            <h2 className="mb-6 text-center font-extrabold text-gray-900 dark:text-white md:text-2xl lg:text-2xl">
+            <h2 className="mb-3 text-center font-extrabold text-gray-900 dark:text-white text-lg md:text-xl lg:text-2xl">
               <span className="text-transparent font-mono bg-clip-text bg-pink-500 text-shadow-2xs">
                 Tecnologias
-              </span>
+              </span>{" "}
               🔍
             </h2>
-            <ul className="text-center font-mono italic max-w-md space-y-1 dark:text-black list-inside[ ]">
-              <li className="mb-4">
+            <ul className="text-center font-mono italic text-gray-700 dark:text-black space-y-2">
+              <li>
                 <a
                   href="https://flowbite.com"
                   className="hover:underline after:content-['_↗']"
@@ -34,7 +28,7 @@ const Footer = () => (
                   Flowbite
                 </a>
               </li>
-              <li className="mb-4">
+              <li>
                 <a
                   href="https://tailwindcss.com/"
                   className="hover:underline after:content-['_↗']"
@@ -44,7 +38,7 @@ const Footer = () => (
                   Tailwind CSS
                 </a>
               </li>
-              <li className="mb-4">
+              <li>
                 <a
                   href="https://react.dev"
                   className="hover:underline after:content-['_↗']"
@@ -66,15 +60,17 @@ const Footer = () => (
               </li>
             </ul>
           </div>
+
+          {/* Coluna 2 */}
           <div>
-            <h2 className="mb-6 text-center font-extrabold text-gray-900 dark:text-white md:text-2xl lg:text-2xl">
-              <span className="text-transparent font-mono bg-clip-text  bg-pink-500 text-shadow-2xs">
+            <h2 className="mb-3 text-center font-extrabold text-gray-900 dark:text-white text-lg md:text-xl lg:text-2xl">
+              <span className="text-transparent font-mono bg-clip-text bg-pink-500 text-shadow-2xs">
                 Idealizadores
-              </span>
+              </span>{" "}
               🌟
             </h2>
-            <ul className="text-center max-w-md space-y-1 font-mono italic text-gray-500 list-inside dark:text-black">
-              <li className="mb-4">
+            <ul className="text-center font-mono italic text-gray-700 dark:text-black space-y-2">
+              <li>
                 <a
                   href="https://github.com/Jeancaetano12"
                   className="hover:underline after:content-['_↗']"
@@ -96,15 +92,17 @@ const Footer = () => (
               </li>
             </ul>
           </div>
+
+          {/* Coluna 3 */}
           <div>
-            <h2 className="mb-6 text-center font-extrabold text-gray-900 dark:text-white md:text-2xl lg:text-2xl">
+            <h2 className="mb-3 text-center font-extrabold text-gray-900 dark:text-white text-lg md:text-xl lg:text-2xl">
               <span className="text-transparent font-mono bg-clip-text bg-pink-500 text-shadow-2xs">
-                Repósitorios
-              </span>
+                Repositórios
+              </span>{" "}
               🖥️
             </h2>
-            <ul className="text-center max-w-md space-y-1 font-mono italic text-gray-500 list-inside dark:text-black">
-              <li className="mb-4">
+            <ul className="text-center font-mono italic text-gray-700 dark:text-black space-y-2">
+              <li>
                 <a
                   href="https://github.com/Jeancaetano12/Desenvolvimento-Web"
                   className="hover:underline after:content-['_↗']"
@@ -128,9 +126,9 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-black">
+      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700" />
+      <div className="sm:flex sm:items-center sm:justify-between text-center">
+        <span className="text-sm text-gray-500 dark:text-black">
           © 2025{" "}
           <a href="https://flowbite.com" className="hover:underline">
             OharaTeam™
