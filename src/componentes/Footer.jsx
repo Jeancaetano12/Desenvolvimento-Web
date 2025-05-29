@@ -8,7 +8,7 @@ const Footer = () => (
     <div className="relative left-0 w-full h-8 bg-gradient-to-t from-transparent to-[#c48faa] pointer-events-none z-10"></div>
     <div className="mx-auto max-w-screen-xl p-4">
       <div className="md:flex md:justify-between flex-col md:flex-row">
-        <div className=" box bg-white/70 rounded-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 border-4 border-double p-4 w-full">
+        <div className=" bg-white/70 rounded-2xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 border-4 border-double p-4 w-full">
           {/* Coluna 1 */}
           <div>
             <h2 className="mb-3 text-center font-extrabold text-gray-900 dark:text-white text-lg md:text-xl lg:text-2xl">

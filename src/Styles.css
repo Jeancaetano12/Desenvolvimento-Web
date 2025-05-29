@@ -80,3 +80,47 @@
     transform: translate(0px);
   }
 }
+
+.texto-animação {
+  background: linear-gradient(90deg, #ffd8ec,#ff89b2,#ffffff);
+  background-size: 200%;
+  background-clip: text;
+  color: transparent;
+  animation: text-animation 2s infinite linear;
+
+  -webkit-text-stroke: 1px black; 
+
+}
+
+  @keyframes text-animation {
+    0% {
+      background-position: 0%;
+    }
+
+    100% {
+      background-position: 200%;
+    }
+
+  }
+
+
+
+  .p-final {
+    border-right: 4px solid;
+    white-space: nowrap;
+    width: 24ch;
+    overflow: hidden;
+    animation: animaTexto steps(24) 2s infinite alternate, animaMarcador 0.5s linear infinite;
+  }
+
+  @keyframes animaMarcador {
+     50%{
+      border-right: transparent;
+     }
+  }
+
+  @keyframes animaTexto {
+    0% {
+      width: 0;
+    }
+  }
