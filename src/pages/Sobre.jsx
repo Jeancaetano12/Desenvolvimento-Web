@@ -24,7 +24,7 @@ export default function Sobre() {
             </svg>
 
           <blockquote>
-                  <p className="text-4xl italic font-medium text-gray-900 dark:text-white">"No nosso servidor, você vai encontrar cidades, ginásios, e quests para interagir nesse gigantesco mundo que construimos bloco a bloco, dedicamos muitos esforços para trazer a essência dos jogos para o mundo quadrado, baseado no jogo Fire-RED da franquia pokémon, adaptamos seus visuais para algo mais quadrado e com um toque a mais de personalidade, envolto de uma história própria e acontecimentos distintos, esperamos trazer uma experiência de aventuras e batalhas nesse novo mundo!"</p>
+                  <p className="text-4xl italic font-medium text-gray-900 dark:text-white text-shadow-lg/55">"No nosso servidor, você vai encontrar cidades, ginásios, e quests para interagir nesse gigantesco mundo que construimos bloco a bloco, dedicamos muitos esforços para trazer a essência dos jogos para o mundo quadrado, baseado no jogo Fire-RED da franquia pokémon, adaptamos seus visuais para algo mais quadrado e com um toque a mais de personalidade, envolto de uma história própria e acontecimentos distintos, esperamos trazer uma experiência de aventuras e batalhas nesse novo mundo!"</p>
           </blockquote>
 
              <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">

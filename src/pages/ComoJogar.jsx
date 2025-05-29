@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function ComoJogar() {
   
   return ( 
@@ -18,7 +19,7 @@ export default function ComoJogar() {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-gray-900 dark:text-white">"No nosso mundo tudo foi pensado para ser jogado no estilo Role-Play, ou seja, tente ser você mesmo e interaja com o mundo com bom senso."</p>
+            <p className="text-2xl italic font-medium text-gray-900 dark:text-white text-shadow-lg/55">"No nosso mundo tudo foi pensado para ser jogado no estilo Role-Play, ou seja, tente ser você mesmo e interaja com o mundo com bom senso."</p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
             <img className="w-26 h-26 rounded-full" src="squirtle-icon.png" alt="profile picture"></img>
@@ -64,7 +65,9 @@ export default function ComoJogar() {
             <path d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"/>
           </svg>
           <blockquote>
-            <p className="text-2xl italic font-medium text-gray-900 dark:text-white">"A estalagem foi construida com o intuito de ser o lugar de encontro e interação entre os jogadores, nela existe 8 quartos com capacidade para 2 pessoas, uma aréa com baús e uma cozinha comunitária na tentativa de criar uma dinâmica entre os aventureiros"</p>
+            <p className="text-2xl italic font-medium text-gray-900 dark:text-white text-shadow-lg/55">
+            "A estalagem foi construida com o intuito de ser o lugar de encontro e interação entre os jogadores, nela existe 8 quartos com capacidade para 2 pessoas, uma aréa com baús e uma cozinha comunitária na tentativa de criar uma dinâmica entre os aventureiros. Dito isso, é bom dar uma lida nas <Link to='/regras' className='text-purple-700 underline hover:text-purple-800'>regras</Link>."
+            </p>
           </blockquote>
           <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
             <img className="w-26 h-26 rounded-full" src="squirtle-icon.png" alt="profile picture"></img>
@@ -75,40 +78,7 @@ export default function ComoJogar() {
           </figcaption>
         </figure>
         </section>
-
-      {/*Alguma coisa*/}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 relative z-10">
-        {/*Div da esquerda*/}
-        <div className="p-2 flex flex-col items-center justify-center text-center">
-          <p className="mb-8 text-2xl font-mono text-center text-gray-900 lg:text-2x1 sm:px-16 lg:px-8 dark:text-white texto-com-borda texto-com-borda">Isso é tudo que você precisa saber para começar. Achamos que é melhor você descobrir o resto sozinho, então pegue o Grande Circular e vá explorar esse mundo!</p>
-        </div>
-        {/*Div da direita*/}
-        <div className="p-2 flex flex-col items-center justify-center text-center">
-          <img src="TremEstacao.png" alt="Pousada" className="rounded-lg mb-4 shadow-2xl dark:shadow-gray-800"/>
-        </div>
-
-
-        
       </div>
-
-      </div>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
   );
 }
