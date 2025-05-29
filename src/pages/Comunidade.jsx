@@ -17,7 +17,7 @@ export default function Comunidade() {
            <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 pl-8 relative z-10">
 
          {/* Coluna da Esquerda */}
-        <div className="p-0 flex flex-col items-center justify-center text-center">
+        <div className="p-4 flex flex-col items-center justify-center text-center">
 
               <figure className="max-w-screen-md mx-auto text-center">
             <svg className="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 14">
@@ -25,7 +25,7 @@ export default function Comunidade() {
             </svg>
 
           <blockquote>
-                  <p className="text-4xl italic font-medium text-gray-900 dark:text-white text-shadow-lg/55 ">O Ohara é uma comunidade virtual feita para quem ama games e também tem sede de conhecimento. Aqui, unimos diversão e aprendizado em um ambiente acolhedor, dinâmico e cheio de possibilidades.</p>
+                  <p className=" mr-10 text-4xl italic font-medium text-gray-900 dark:text-white text-shadow-lg/55 ">O Ohara é uma comunidade virtual feita para quem ama games e também tem sede de conhecimento. Aqui, unimos diversão e aprendizado em um ambiente acolhedor, dinâmico e cheio de possibilidades.</p>
           </blockquote>
 
              <figcaption className="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse">
@@ -43,14 +43,14 @@ export default function Comunidade() {
         </div>
 
       {/* Coluna da Direita */}
-       <div className="p-0 flex flex-col items-center justify-center text-center">
+       <div className="p-4 flex flex-col items-center justify-center text-center">
 
             <div className="p-0 flex flex-col items-center justify-center text-center">
 
              <p className="mb-8 text-lg font-mono text-gray-900 lg:text-xl sm:px-16 lg:px-48 dark:text-white text-shadow-lg/55">
               Um lugar acolhedor criado para ser um ponto de interação virtual para as mais diversas atividades,jogar a estudar</p>
               <button type="button" class="text-white bg-gradient-to-r from-purple-700 to-blue-600 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-8"> <a href="https://discord.gg/8Gn9QW7P9t" target="_blank" rel="noopener noreferrer">Discord</a> </button>
-             <img className="h-112 max-w-3xl rounded-lg shadow-2xl dark:shadow-gray-800 mb-8" src="Discord.png" alt="image description"></img>
+             <img className=" ml-10 h-112 max-w-3xl rounded-lg shadow-2xl dark:shadow-gray-800 mb-8" src="Discord.png" alt="image description"></img>
               
         </div>
 
