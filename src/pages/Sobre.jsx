@@ -53,7 +53,7 @@ export default function Sobre() {
 
       <div className="grid gap-2 mb-6 lg:mb-16 md:grid-cols-1">
           
-          <div className="items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
+          <div className=" box items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
                 <a href="#">
                   <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/gengar-icon.png" alt="Bonnie Avatar"/>
                 </a>
@@ -67,7 +67,7 @@ export default function Sobre() {
 
           {/* Segundo Banner */}
 
-          <div className="items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
+          <div className=" box items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
                 <a href="#">
                   <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="/squirtle-icon.png" alt="Jese Avatar"/>
                 </a>
@@ -81,7 +81,7 @@ export default function Sobre() {
 
           {/* Terceiro Banner */}
 
-          <div className="items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
+          <div className=" box items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
                 <a href="#">
                   <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="eevee-icon.png" alt="Michael Avatar"/>
                 </a>
@@ -95,7 +95,7 @@ export default function Sobre() {
 
             {/* Quarto Banner */}
 
-            <div className="items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
+            <div className=" box items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
                   <a href="#">
                     <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="pikachu-icon.png" alt="Sofia Avatar"/>
                   </a>

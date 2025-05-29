@@ -55,3 +55,23 @@
   /* Transição suave para o hover */
   transition: color 0.3s ease;
 }
+
+/* animação com scroll */
+
+.box {
+  animation: anima_scroll linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 30%;
+}
+
+@keyframes anima_scroll {
+  0%{
+    opacity: 0;
+    transform: translate(-150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0px);
+  }
+}

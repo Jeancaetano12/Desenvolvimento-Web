@@ -128,41 +128,41 @@ export default function Galeria() {
     
 
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 p-8">
-
-        
+            {/*Imagem 1*/}
         <div>
-          <img class=" h-auto max-w-full rounded-lg" src="Galeria1.png" alt=""/>
+          <img class=" box h-auto max-w-full rounded-lg " src="Galeria1.png" alt=""/>
         </div>
+            {/*Imagem 2*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria2.png" alt=""/>
+          <img class=" box h-auto max-w-full rounded-lg" src="Galeria2.png" alt=""/>
         </div>
-        
+            {/*Imagem 3*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria3.png" alt=""/>
+          <img class=" box h-auto max-w-full rounded-lg" src="Galeria3.png" alt=""/>
         </div>
-
+            {/*Imagem 4*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria4.png" alt=""/>
+          <img class=" box h-auto max-w-full rounded-lg" src="Galeria4.png" alt=""/>
         </div>
-
+            {/*Imagem 5*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria5.png" alt=""/>
+          <img class=" box h-auto max-w-full rounded-lg" src="Galeria5.png" alt=""/>
         </div>
-
+            {/*Imagem 6*/}
         <div>
-         <img class="h-auto max-w-full rounded-lg" src="Galeria6.png" alt=""/>
+         <img class=" box h-auto max-w-full rounded-lg" src="Galeria6.png" alt=""/>
         </div>
-
+            {/*Imagem 7*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria7.png" alt=""/>
+          <img class=" box h-auto max-w-full rounded-lg" src="Galeria7.png" alt=""/>
         </div>
-
+            {/*Imagem 8*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria8.png" alt=""/>
+          <img class="box h-auto max-w-full rounded-lg" src="Galeria8.png" alt=""/>
         </div>
-
+            {/*Imagem 9*/}
         <div>
-          <img class="h-auto max-w-full rounded-lg" src="Galeria9.png" alt=""/>
+          <img class="box h-auto max-w-full rounded-lg" src="Galeria9.png" alt=""/>
         </div>
       </div>
     </div>
