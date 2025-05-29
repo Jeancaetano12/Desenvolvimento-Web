@@ -3,7 +3,7 @@ export default function Sobre() {
     
     <div className="relative min-h-screen">
       {/* Div do background com imagem + desfoque */}
-      <div className="relative bottom-full left-0 w-full h-4 bg-gradient-to-t from-transparent to-[#b3889e] pointer-events-none z-10"></div>
+      
       <div 
         className="fixed inset-0 -z-10 bg-[url('/mewtwo.png')] bg-cover bg-center"
       >

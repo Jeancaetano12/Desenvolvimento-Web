@@ -7,12 +7,14 @@ import ComoJogar from './pages/ComoJogar';
 import Regras from './pages/Regras';
 import Download from './pages/Download';
 import Comunidade from './pages/Comunidade';
+import ScrollToTop from './componentes/ScrollToTop';
 import "./Styles.css"
 import 'flowbite';
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Inicio />} />

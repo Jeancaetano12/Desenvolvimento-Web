@@ -21,7 +21,8 @@
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  transition: all 0.3s ease;
+  /* ✨ Transições suaves para tudo */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
 }
 
 .botoesNav:hover,
@@ -29,10 +30,14 @@
   background-color: #ffffff;/* Rosa mais forte no hover */
   color: #fa70a0; /* Texto branco no hover */
   border-color: #FFB6C1; /* Borda rosa claro no hover */
+  /* Efeito de "salto leve" no hover */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
-
-
+.botoesNav:active {
+  transform: scale(0.98);
+}
 .texto-com-borda {
   /* Efeito de borda no texto */
   text-shadow: 
