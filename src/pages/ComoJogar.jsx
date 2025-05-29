@@ -77,38 +77,35 @@ export default function ComoJogar() {
         </section>
 
       {/*Alguma coisa*/}
-       <div className="flex flex-col p-4 mt-4">
-        <h2 className="mb-8 text-2xl font-mono text-center text-gray-900 lg:text-2x1 sm:px-16 lg:px-48 dark:text-white texto-com-borda texto-com-borda">Todos começam aqui, este é o ponto de partida, o spawm do servidor.</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 relative z-10">
-          {/*Div da esquerda*/}
-          <div className="p-2 flex flex-col items-center justify-center text-center">
-            <img src="Spawn.png" alt="Spawn" className="rounded-lg shadow-2xl dark:shadow-gray-800"/>
-          </div>
-          {/*Div da direita*/}
-          <div className="p-2 flex flex-col items-center justify-center text-center">
-            <img src="Spawn2.png" alt="Pousada" className="rounded-lg shadow-2xl dark:shadow-gray-800"/>
-          </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 relative z-10">
+        {/*Div da esquerda*/}
+        <div className="p-2 flex flex-col items-center justify-center text-center">
+          <p className="mb-8 text-2xl font-mono text-center text-gray-900 lg:text-2x1 sm:px-16 lg:px-8 dark:text-white texto-com-borda texto-com-borda">Isso é tudo que você precisa saber para começar. Achamos que é melhor você descobrir o resto sozinho, então pegue o Grande Circular e vá explorar esse mundo!</p>
         </div>
-        {/*Segunda GRID*/}
-        <h2 className="mb-8 text-2xl font-mono text-center text-gray-900 lg:text-2x1 sm:px-16 lg:px-48 dark:text-white texto-com-borda texto-com-borda">Na ilha inicial, você tem varios lugares para visitar, mas nenhum deles é tão importante quanto a Estalagem!</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap pb-16 pt-4 relative z-10">
-          {/*Div da esquerda*/}
-          <div className="p-2 flex flex-col items-center justify-center text-center">
-            <img src="Pousada2.png" alt="Spawn" className="rounded-lg mb-4 shadow-2xl dark:shadow-gray-800"/>
-            <img src="NPC1.png" alt="NPC1.png" className="rounded-lg mt-4 shadow-2xl dark:shadow-gray-800"/>
-          </div>
-          {/*Div da direita*/}
-          <div className="p-2 flex flex-col items-center justify-center text-center">
-            <img src="Estalagem.png" alt="Pousada" className="rounded-lg mb-4 shadow-2xl dark:shadow-gray-800"/>
-            <img src="Estalagem2.png" alt="Quartos" className="rounded-lg mt-4 shadow-2xl dark:shadow-gray-800"/>
-          </div>
+        {/*Div da direita*/}
+        <div className="p-2 flex flex-col items-center justify-center text-center">
+          <img src="TremEstacao.png" alt="Pousada" className="rounded-lg mb-4 shadow-2xl dark:shadow-gray-800"/>
         </div>
-
-
 
 
         
       </div>
+
+      </div>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
