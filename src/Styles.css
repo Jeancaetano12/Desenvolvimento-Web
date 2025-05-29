@@ -31,7 +31,7 @@
   color: #fa70a0; /* Texto branco no hover */
   border-color: #FFB6C1; /* Borda rosa claro no hover */
   /* Efeito de "salto leve" no hover */
-  transform: translateY(-3px);
+  transform: translateY(+3px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
