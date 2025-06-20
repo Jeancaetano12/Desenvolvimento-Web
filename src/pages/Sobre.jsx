@@ -61,7 +61,7 @@ export default function Sobre() {
                     <h3 className="text-3xl font-mono font-bold underline tracking-tight text-gray-900 dark:text-white text-shadow-black">
                         Alison de Oliveira
                     </h3>
-                        <p className="mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white ">Bonnie drives the technical strategy of the flowbite platform and brand.</p>
+                        <p className="mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white text-shadow-lg/55">Construtor & decorador. Responsavel pela maioria das pixel artes.</p>
                 </div>
           </div> 
 
@@ -75,7 +75,7 @@ export default function Sobre() {
                     <h3 className="text-3xl font-mono font-bold tracking-tight underline text-gray-900 dark:text-white text-shadow-black">
                         Jean Caetano
                     </h3>
-                        <p className="mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white">Jese drives the technical strategy of the flowbite platform and brand.</p>
+                        <p className="mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white text-shadow-lg/55">Construtor, decorador & roteirista. Responsavel pelas quests e linha de historia do mundo</p>
               </div>
           </div>
 
@@ -83,30 +83,18 @@ export default function Sobre() {
 
           <div className=" box items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
                 <a href="#">
-                  <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="eevee-icon.png" alt="Michael Avatar"/>
+                  <img className="ml-10 w-26 rounded-lg sm:rounded-none sm:rounded-l-lg" src="Tintin.png" alt="Michael Avatar"/>
                 </a>
               <div className="p-5">
                     <h3 className="text-3xl font-mono font-bold tracking-tight underline text-gray-900 dark:text-white text-shadow-black">
-                       Livia Mel Machado
+                       Tintin
                     </h3>
-                        <p className="mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white">Michael drives the technical strategy of the flowbite platform and brand.</p>
+                        <p className="ml-16 mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white text-shadow-lg/55">Construtor, decorador & roteirista. Responsavel por idealizar os ginásios</p>
               </div>
           </div> 
 
             {/* Quarto Banner */}
 
-            <div className=" box items-center rounded-lg border-gray-500 shadow-2xl sm:flex">
-                  <a href="#">
-                    <img className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg" src="pikachu-icon.png" alt="Sofia Avatar"/>
-                  </a>
-               <div className="p-5">
-                    <h3 className="text-3xl font-mono font-bold tracking-tight underline text-gray-900 dark:text-white text-shadow-black">
-                       Jefferson Rodrigues
-                    </h3>
-                        <p className="mt-3 mb-4 font-mono font-bold text-gray-500 dark:text-white">Lana drives the technical strategy of the flowbite platform and brand.</p>
-                  
-                   </div>
-               </div>  
             </div>  
         </div>
       </section>

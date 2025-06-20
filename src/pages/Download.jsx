@@ -25,7 +25,7 @@ export default function Download() {
             </h2>
             <p className="mb-6 font-mono text-gray-500 md:text-lg dark:text-white text-shadow-lg/55 text-justify">
               Primeiro passo você precisa ter o Minecraft original para conseguir se conectar ao servidor e para acessar a plataforma de modificações. Você pode adquirir o <span class="underline underline-offset-3 decoration-2 decoration-emerald-400 dark:decoration-emerald-500"><a href="https://www.minecraft.net/pt-br" target="_blank" rel="noopener noreferrer" >Minecraft</a> </span> no link abaixo.</p>
-          <button type="button" class="text-white bg-gradient-to-r from-emerald-700 to-emerald-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="https://www.minecraft.net/pt-br" target="_blank" rel="noopener noreferrer">Comprar Minecraft</a> </button>        
+          <button type="button" class="botaoComunidade text-white bg-gradient-to-r from-emerald-700 to-emerald-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="https://www.minecraft.net/pt-br" target="_blank" rel="noopener noreferrer">Comprar Minecraft</a> </button>        
         </div>   
       </div>
 
@@ -47,7 +47,7 @@ export default function Download() {
             <p className="mb-6 font-mono text-gray-500 md:text-lg dark:text-white text-shadow-lg/55 text-justify">
             <span class="underline underline-offset-3 decoration-2 decoration-yellow-500 dark:decoration-yellow-500"><a href="https://www.curseforge.com/minecraft" target="_blank" rel="noopener noreferrer" >CurseForge</a></span>  é o aplicativo de terceiros usado para instalar e gerenciar mods e texturas em geral. No nosso caso você vai precisar dele para prosseguir para o proximo passo.
             </p>
-          <button type="button" class="text-white bg-gradient-to-r from-yellow-700 to-yellow-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="https://www.curseforge.com/minecraft" target="_blank" rel="noopener noreferrer">Baixar CurseForge</a> </button>
+          <button type="button" class="botaoComunidade text-white bg-gradient-to-r from-yellow-700 to-yellow-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="https://www.curseforge.com/minecraft" target="_blank" rel="noopener noreferrer">Baixar CurseForge</a> </button>
         </div>
       </div>  
 
@@ -69,7 +69,7 @@ export default function Download() {
             <p className="mb-6 font-mono text-gray-500 md:text-lg dark:text-white text-shadow-lg/55 text-justify">
               🚫Novidades em Breve🚫
             </p>
-          <button type="button" class="text-white bg-gradient-to-r from-blue-800 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="">Download</a> </button>
+          <button type="button" class="botaoComunidade text-white bg-gradient-to-r from-blue-800 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="">Download</a> </button>
         </div>
       </div>
 

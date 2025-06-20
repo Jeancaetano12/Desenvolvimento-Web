@@ -38,6 +38,29 @@
 .botoesNav:active {
   transform: scale(0.98);
 }
+
+.botaoComunidade {
+  background-color: #263aef; /* Rosa claro */
+  color: #ffffff; /* Rosa escuro */
+  border: 1px solid white; /* Borda branca */
+  padding: 14px 32px;
+  border-radius: 15px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  cursor: pointer !important;
+  /* ✨ Transições suaves para tudo */
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.2s ease !important;
+}
+
+.botaoComunidade:hover,
+.botaoComunidade.active {
+  background-color: #ffffff;/* Rosa mais forte no hover */
+  color: #ffffff; /* Texto branco no hover */
+  border-color: #ffffff; /* Borda rosa claro no hover */
+  /* Efeito de "salto leve" no hover */
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
 .texto-com-borda {
   /* Efeito de borda no texto */
   text-shadow: 

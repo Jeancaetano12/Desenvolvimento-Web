@@ -36,15 +36,15 @@ export default function Regras() {
               <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Quests & Puzzles 🎲</h3>
               <hr class="w-64 h-1 mx-auto bg-black border-0 rounded-sm dark:bg-black"></hr>
               <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">É <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">estritamente proibido</span> usar de glitchs ou bugs para concluir/ter acesso a quests ou puzzles encontrados ao redor do mundo.</p>
-              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">Em casos de passagem secreta ou mecanismo oculto, <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">o acesso deve ser fechado e mantido em segredo</span>.</p>
+              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">Em casos de passagem secreta ou mecanismo oculto, <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">o acesso deve ser fechado e mantido em segredo</span>. Com execeção das portas de ginásios, que uma vez aberta, devem permanecer assim.</p>
             </div>
             {/*Regra*/}
             <div className="shadow-lg/55 p-4 rounded-2xl">
-              <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Economia 💸</h3>
+              <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Economia 🪙</h3>
               <hr class="w-64 h-1 mx-auto bg-black border-0 rounded-sm dark:bg-black"></hr>
-              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">Toda a economia desse mundo é baseado em <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">esmeraldas</span>.</p>
-              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">Toda transação entre <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">jogadores</span> deve ser feita usando como moeda a esmeralda.</p>
-              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">É <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">estritamente proibido</span> usar de bugs/glitchs para conseguir esmeraldas.</p>
+              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">Toda a economia desse mundo é baseado em <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">moedas</span>(do mod cobblemon).</p>
+              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">Toda transação entre <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">jogadores</span> deve ser feita usando essas moedas</p>
+              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">É <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">estritamente proibido</span> usar de bugs/glitchs para conseguir moedas, o único jeito de consegui-las é com o comercio e saqueando.</p>
             </div>
             {/*Regra*/}
             <div className="shadow-lg/55 p-4 rounded-2xl">

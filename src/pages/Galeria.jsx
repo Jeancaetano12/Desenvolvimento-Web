@@ -172,16 +172,3 @@ export default function Galeria() {
   
 
 }
-
-{/*
-            <figcaption class="flex items-center justify-center mt-2 space-x-3 rtl:space-x-reverse">
-                <img class="w-26 h-26 rounded-full" src="/gengar-icon.png" alt="profile picture"/>
-                <p className="font-mono leading-none tracking-tight text-gray-900 md:text-5xl lg:text-4xl dark:text-white texto-com-borda texto-com-borda">|</p>
-                <img class="w-26 h-26 rounded-full" src="/Tintin.png" alt="profile picture"/>
-              <div class="flex items-center divide-x-2 rtl:divide-x-reverse divide-white dark:divide-white">
-
-                <cite class="ps-3 text-sm font-mono text-gray-500 dark:text-white">Construtores</cite>
-
-              </div>
-            </figcaption>
-            */}
