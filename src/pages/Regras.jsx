@@ -56,9 +56,13 @@ export default function Regras() {
             </div>
             {/*Regra*/}
             <div className="shadow-lg/55 p-4 rounded-2xl">
-              <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Construções 🛠️</h3>
+              <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Comandos Globais ✅ </h3>
               <hr class="w-64 h-1 mx-auto bg-black border-0 rounded-sm dark:bg-black"></hr>
-              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">É <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">estritamente proibido</span> interferir negativamente em uma linha de trem já existente.</p>
+              <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">
+              <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">/tpa</span> — Teleporta para um jogador. <br />
+              <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">/tpahere</span> — Convida um jogador até você. <br />
+              Esses comandos são liberados para todos usarem, porem com um tempo de espera de 2 minutos entre cada execução.
+              </p>
             </div>
           </div>
         </div>
