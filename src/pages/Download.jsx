@@ -69,7 +69,7 @@ export default function Download() {
             <p className="mb-6 font-mono text-gray-500 md:text-lg dark:text-white text-shadow-lg/55 text-justify">
               Baixe o modpack no link abaixo, descompacte o arquivo e assista o <span class="underline underline-offset-3 decoration-2 decoration-emerald-400 dark:decoration-emerald-500">tutorial de instalação</span> dentro da pasta 😘
             </p>
-          <button type="button" class="botaoComunidade text-white bg-gradient-to-r from-blue-800 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="https://drive.google.com/file/d/1NOe-Kzo1nWGd9UP_fYJgXfWSlpmlXsrj/view?usp=sharing" target="_blank" rel="noopener noreferrer">Baixar Modpack</a> </button>
+          <button type="button" class="botaoComunidade text-white bg-gradient-to-r from-blue-800 to-blue-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-lg text-xl px-5 py-2.5 text-center me-2 mb-2"> <a href="https://drive.google.com/file/d/1hxOQy61cbOn6UsfRm0rSZKQM7a-y2BV6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Baixar Modpack</a> </button>
         </div>
       </div>
 
