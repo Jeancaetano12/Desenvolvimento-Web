@@ -56,12 +56,11 @@ export default function Regras() {
             </div>
             {/*Regra*/}
             <div className="shadow-lg/55 p-4 rounded-2xl">
-              <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Comandos Globais ✅ </h3>
+              <h3 className="mb-2 text-xl text-center font-bold dark:text-white text-shadow-lg/55">Farms Automaticas 🤖 </h3>
               <hr class="w-64 h-1 mx-auto bg-black border-0 rounded-sm dark:bg-black"></hr>
               <p className="text-gray-500 dark:text-white font-mono text-shadow-lg/55">
-              <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">/tpa</span> — Teleporta para um jogador. <br />
-              <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">/tpahere</span> — Convida um jogador até você. <br />
-              Esses comandos são liberados para todos usarem, porem com um tempo de espera de 2 minutos entre cada execução.
+              <span className="underline underline-offset-3 decoration-2 decoration-green-600 dark:decoration-green-600 text-shadow-lg/55">Todas as farms</span> construidas devem ter controle de uso, como por exemplo: botão on/off <br />
+              <span className="underline underline-offset-3 decoration-2 decoration-red-600 dark:decoration-red-600 text-shadow-lg/55">É estritamente proibido</span> usar textura ou datapacks externos para farmar itens.
               </p>
             </div>
           </div>
